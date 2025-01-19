@@ -1,10 +1,13 @@
 # spooky-link
 
 ## **Tech stack used:**
+## Python `(via Jython)`
+## Burp suite
+## Requests `(for API queries)`
+##
 
-### Python `(via Jython)`
-### Burp suites
-### Requests `(for API queries)`
+
+
 
 ```
 ### External libraries
