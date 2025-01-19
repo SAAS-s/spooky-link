@@ -1,7 +1,7 @@
 # spooky-link
 
 ## **Tech stack used:**
-```
+
 
 Python `(via Jython)`
 Burp suites
@@ -11,6 +11,5 @@ External libraries
 yara python
 regex for payload matching
 
-```
 
 
