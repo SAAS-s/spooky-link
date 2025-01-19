@@ -14,4 +14,3 @@ class BurpExtender(IBurpExtender, IHttpListener)
         else:
             response = self.helpers.bytesToString(messageInfo.getResponse())
             print("[Response]:\n", response)
-
