@@ -2,8 +2,10 @@
 
 ## **Tech stack used:**
  Python `(via Jython)`
+
  Burp suite
-Requests `(for API queries)`
+
+ Requests `(for API queries)`
 
  External libraries
  yara python
