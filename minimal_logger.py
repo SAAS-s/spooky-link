@@ -7,6 +7,7 @@ class BurpExtender(IBurpExtender, IHttpListener)
         callbacks.setExtensionName("Minimal Logger")
         callbacks.registerHttpListener(self)
 
+    //
     def processHttpMessage(self, toolFlag, messageIsRequest, messageInfo):
         if messageIsRequest:
             request = self.helpers.bytesToString(messageInfo.getRequest())
