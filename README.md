@@ -15,6 +15,10 @@ Frameworks/concepts
 * multithreading for performance
 
 
-
+## **🚀Features**
+**Core Requirements**
+* Metadata Scraper
+Extract file metadata (from HTTP responses; PDFs, JS, HTML)
+* Third-Party Lookup Integration: Submit extracted URLs/IPs/hashes to: `Virustotal`, `Abuse.ch`, `Shodan`
 
 
