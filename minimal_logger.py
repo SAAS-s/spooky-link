@@ -1,6 +1,6 @@
 from burp import IBurpExtender, IHttpListener
 
-class BurpExtender(IBurpExtender, IHttpListener)
+class BurpExtender(IBurpExtender, IHttpListener):
     def registerExtenderCallbacks(self, callbacks):
         self.callbacks = callbacks
         self.helpers = callbacks.getHelpers()
